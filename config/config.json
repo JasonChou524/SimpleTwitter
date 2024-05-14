@@ -15,7 +15,11 @@
     "logging": false
   },
   "production": {
-    "use_env_variable": "CLEARDB_DATABASE_URL"
+      "username": "RDS_USERNAME",
+      "password": "RDS_PASSWORD",
+      "database": "RDS_NAME",
+      "host": "RDS_HOSTNAME",
+      "dialect": "mysql"
   },
   "travis": {
     "username": "travis",
