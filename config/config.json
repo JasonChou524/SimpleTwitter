@@ -15,11 +15,7 @@
     "logging": false
   },
   "production": {
-      "username": "RDS_USERNAME",
-      "password": "RDS_PASSWORD",
-      "database": "RDS_NAME",
-      "host": "RDS_HOSTNAME",
-      "dialect": "mysql"
+      "use_env_variable": "DATABASE_URL"
   },
   "travis": {
     "username": "travis",
